@@ -7,7 +7,7 @@ title: CZ‘Blog
 subtitle:
 description:
 author: 魏成宗
-language:
+language: zh-Hans
 timezone:
 
 # URL
@@ -68,8 +68,9 @@ theme: jacman
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
- type: git
-  repo: git@github.com:NickyWei/NickyWei.github.io.git
+  type: git
+  repository: git@github.com:NickyWei/NickyWei.github.io.git
+  #repository: git@git.coding.net:zong1031/zong1031.git
   branch: master
   message: '站点更新:{{now("YYYY-MM-DD HH/mm/ss")}}'
 
