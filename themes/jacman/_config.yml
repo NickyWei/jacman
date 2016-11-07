@@ -1,8 +1,9 @@
 ##### Menu
 menu:
-  Home: /
-  Archives: /archives
-  About: /about
+  主页: /
+  归档: /archives
+  关于: /about
+  资源共享: /share
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -12,11 +13,11 @@ menu:
 
 #### Widgets
 widgets: 
-- github-card
+# - github-card
 - category
 - tag
 - links
-- douban
+# - douban
 - rss
 - weibo
   ## provide eight widgets:github-card,category,tag,rss,archive,tagcloud,links,weibo
@@ -33,7 +34,7 @@ imglogo:
 favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`.     
 apple_icon: img/jacman.jpg ## size:114px*114px,please put image into the theme folder `/jacman/source/img`.
 author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
-banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
+banner_img: img/banner.jpg #img/banner.jpg ## size:1920px*200px+. Banner Picture
 ### Theme Color 
 theme_color:
     theme: '#2ca6cb'    ##the defaut theme color is blue
@@ -44,7 +45,7 @@ highlight_theme: default
 
 #### index post is expanding or not 
 index:
-  expand: true           ## default is unexpanding,so you can only see the short description of each post.
+  expand: false           ## default is unexpanding,so you can only see the short description of each post.
   excerpt_link: Read More  
 
 close_aside: false  #close sidebar in post page if true
@@ -56,7 +57,7 @@ creative_commons: none
 
 #### Author information
 author:
-  intro_line1:  "魏成宗"    ## your introduction on the bottom of the page
+  intro_line1:  "一分耕耘 一分收获"    ## your introduction on the bottom of the page
   intro_line2:  "代码的搬运工"  ## the 2nd line
   weibo: zong1031     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier: eb816cbb    ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
@@ -92,9 +93,9 @@ disqus_shortname:     ## e.g. wuchong   your disqus short name.
 
 #### Share button
 jiathis:
-  enable: false ## if you use jiathis as your share tool,the built-in share tool won't be display.
-  id:    ## e.g. 1889330 your jiathis ID. 
-  tsina: ## e.g. 2176287895 Your weibo id,It will be used in share button.
+  enable: true ## if you use jiathis as your share tool,the built-in share tool won't be display.
+  id:  2118684  ## e.g. 1889330 your jiathis ID. 
+  tsina: zong1031 ## e.g. 2176287895 Your weibo id,It will be used in share button.
 
 #### Analytics
 google_analytics:
@@ -107,8 +108,8 @@ baidu_tongji:
   enable: true
   sitecode: 3073ef965e52e56f85892afcf22f02a2 ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
 cnzz_tongji:
-  enable: false
-  siteid:    ## e.g. 1253575964 your cnzz tongji site id
+  enable: true
+  siteid:  1260760061  ## e.g. 1253575964 your cnzz tongji site id
 
 #### Miscellaneous
 ShowCustomFont: true  ## you can change custom font in `variable.styl` and `font.styl` which in the theme folder `/jacman/source/css`.
