@@ -67,8 +67,8 @@ baidusitemap:
 # Extensions https://hexo.io/plugins/
 
 Plugins: 
-- hexo-generator-feed
-- hexo-generator-baidu-sitemap
+-  hexo-generator-feed
+-  hexo-generator-baidu-sitemap
 
 ## Themes: https://hexo.io/themes/
 theme: jacman
