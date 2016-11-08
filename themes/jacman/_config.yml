@@ -61,7 +61,7 @@ author:
   intro_line2:  "代码的搬运工"  ## the 2nd line
   weibo: zong1031     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier: eb816cbb    ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
-  tsina: zong1031     ## e.g. 2176287895  Your weibo ID,It will be used in share button.
+  tsina: 1759201381     ## e.g. 2176287895  Your weibo ID,It will be used in share button.
   douban: zong1031    ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
   zhihu:  zong1031    ## e.g. jark  for http://www.zhihu.com/people/jark
   email: 599236845@qq.com     ## e.g. imjark@gmail.com
